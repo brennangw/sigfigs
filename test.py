@@ -17,20 +17,13 @@ OO:
 """
 
 class SFnumber:
-    def
+    def __init__(self):
 
 def main ():
-    sigFigsOps(getNum())
+   (getNum())
     
 def getNum():
     return int(input("enter number: "))
 
-def sigFigsOps (num):
-    determineSigFigs(convertToArr(num))
-    
-def convertToArr (num):
-    
-    pass
 
-def determineSigFigs (arr):
-    pass
+    
