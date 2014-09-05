@@ -17,10 +17,23 @@ OO:
 """
 
 class SFnumber:
-    def __init__(self):
+    
+    def display(self):
+        print(self.intNum)
+        pass
+    
+    def convertIntToArr(self):
+        self.intNum
+    
+    def __init__(self,num):
+        self.intNum = num
+        self.convertIntToArr
+        self.findSF
+        
 
 def main ():
-   (getNum())
+    n = SFnumber(getNum())
+    n.display
     
 def getNum():
     return int(input("enter number: "))
